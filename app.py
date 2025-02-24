@@ -7,7 +7,7 @@ import os
 
 # Função para obter dados climáticos de São Paulo
 def obter_temperatura():
-    api_key = "e81b43e6cdf8edc65c86e001ce64df24"  # Substitua por sua chave da API
+    api_key = "e81b43e6cdf8edc65c86e001ce64df24"  
     url = "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo,BR&appid=" + api_key + "&units=metric&lang=pt"
     
     try:
